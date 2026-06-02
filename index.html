@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devang Bhattad — UI/UX & Frontend Designer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="cur"></div>
+  <div id="cur2"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="logo">DevangB<em>.</em></a>
+    <div class="nav-actions">
+      <ul class="nav-links">
+        <li><a href="#about" class="magnetic">About</a></li>
+        <li><a href="#skills" class="magnetic">Skills</a></li>
+        <li><a href="#tools" class="magnetic">Tools</a></li>
+        <li><a href="#projects" class="magnetic">Work</a></li>
+        <li><a href="#contact" class="magnetic">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-btn magnetic" aria-label="Toggle Theme">☀️</button>
+      <a href="mailto:devangbhattad@gmail.com" class="nav-pill magnetic">Hire Me ↗</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div id="hero-aura"></div>
+    <div class="hero-left">
+      <div class="hero-badge">
+        <div class="badge-dot"></div>
+        <span class="badge-txt">Available for Projects</span>
+      </div>
+      <h1 class="hero-name">
+        <span class="word"><span>Devang</span></span>
+        <span class="word-group">
+          <span class="word"><span class="outline-txt">Bhattad</span></span>
+          <span class="word"><span class="accent"></span></span>
+        </span>
+      </h1>
+      <p class="hero-role">UI/UX Designer & Frontend Developer</p>
+      <p class="hero-desc">I craft digital experiences that feel as good as they look — blending visual design, motion,
+        and clean code to build interfaces people actually love.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-fire magnetic">View My Work →</a>
+        <a href="#contact" class="btn-line magnetic">Let's Talk</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-3d-wrapper">
+        <div class="hero-canvas">
+          <div class="canvas-inner">
+
+          <!-- Floating card 1 — color palette -->
+          <div class="ui-card color-card" style="top:-90px;left:-10px">
+            <div class="glare"></div>
+            <div class="card-label">Design System</div>
+            <div class="card-val">Color Palette</div>
+            <div class="palette-row">
+              <div class="swatch" style="background:#ff4d00"></div>
+              <div class="swatch" style="background:#ffb800"></div>
+              <div class="swatch" style="background:#00e5a0"></div>
+              <div class="swatch" style="background:#a855f7"></div>
+              <div class="swatch" style="background:#f0ede8"></div>
+            </div>
+          </div>
+
+          <!-- Floating card 2 — typography -->
+          <div class="ui-card" style="bottom:-30px;right:-20px;max-width:180px">
+            <div class="glare"></div>
+            <div class="card-label">Typeface</div>
+            <div class="card-val" style="font-family:'Clash Display',sans-serif;letter-spacing:-.02em">Clash Display
+            </div>
+            <div class="card-sub">Aa Bb Cc — 700wt</div>
+          </div>
+
+          <!-- Floating card 3 — Code snippet -->
+          <div class="ui-card" style="top: 35%; right: -60px; max-width: 220px;">
+            <div class="glare"></div>
+            <div class="card-label">Development</div>
+            <div class="card-val" style="font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--flash);">
+              &lt;Button variant="primary"&gt;<br>
+              &nbsp;&nbsp;Launch 🚀<br>
+              &lt;/Button&gt;
+            </div>
+          </div>
+
+          <!-- Floating card 4 — Interaction -->
+          <div class="ui-card" style="bottom: 10%; left: -60px;">
+            <div class="glare"></div>
+            <div class="card-label">Interaction</div>
+            <div class="card-val" style="font-size: 0.9rem;">Hover State</div>
+            <div style="margin-top: 0.6rem; display: flex; gap: 0.5rem; align-items: center;">
+               <div style="width: 30px; height: 10px; background: rgba(255,255,255,0.1); border-radius: 4px;"></div>
+               <div style="width: 40px; height: 12px; background: var(--flash); border-radius: 4px; box-shadow: 0 0 12px var(--flash);"></div>
+            </div>
+          </div>
+
+          <!-- User's Portrait -->
+          <img src="assets/devang.png" alt="Devang Bhattad" class="hero-portrait">
+
+          <!-- Main mockup -->
+          <div class="mockup-frame">
+            <div class="glare"></div>
+            <div class="mockup-bar">
+              <div class="mockup-dot" style="background:#ff5f57"></div>
+              <div class="mockup-dot" style="background:#febc2e"></div>
+              <div class="mockup-dot" style="background:#28c840"></div>
+              <div
+                style="flex:1;margin-left:.5rem;height:18px;background:rgba(255,255,255,.04);border-radius:4px;max-width:200px">
+              </div>
+            </div>
+            <div class="mockup-content">
+              <svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" width="100%">
+                <!-- Sidebar -->
+                <rect x="0" y="0" width="90" height="260" fill="rgba(255,255,255,.02)" rx="0" />
+                <rect x="10" y="14" width="38" height="8" rx="4" fill="rgba(255,77,0,.7)" />
+                <rect x="10" y="30" width="26" height="5" rx="2.5" fill="rgba(255,255,255,.12)" />
+                <!-- Nav items -->
+                <rect x="10" y="55" width="70" height="26" rx="5" fill="rgba(255,77,0,.15)" stroke="rgba(255,77,0,.3)"
+                  stroke-width=".5" />
+                <rect x="22" y="64" width="36" height="7" rx="3.5" fill="rgba(255,77,0,.8)" />
+                <rect x="10" y="90" width="70" height="22" rx="5" fill="transparent" />
+                <rect x="22" y="97" width="28" height="6" rx="3" fill="rgba(255,255,255,.2)" />
+                <rect x="10" y="118" width="70" height="22" rx="5" fill="transparent" />
+                <rect x="22" y="125" width="32" height="6" rx="3" fill="rgba(255,255,255,.2)" />
+                <rect x="10" y="146" width="70" height="22" rx="5" fill="transparent" />
+                <rect x="22" y="153" width="24" height="6" rx="3" fill="rgba(255,255,255,.2)" />
+                <!-- Main area -->
+                <!-- Stats row -->
+                <rect x="105" y="12" width="88" height="52" rx="7" fill="rgba(255,77,0,.08)" stroke="rgba(255,77,0,.15)"
+                  stroke-width=".5" />
+                <rect x="114" y="22" width="42" height="10" rx="5" fill="rgba(255,77,0,.6)" />
+                <rect x="114" y="37" width="28" height="6" rx="3" fill="rgba(255,255,255,.2)" />
+                <rect x="203" y="12" width="88" height="52" rx="7" fill="rgba(168,85,247,.08)"
+                  stroke="rgba(168,85,247,.15)" stroke-width=".5" />
+                <rect x="212" y="22" width="38" height="10" rx="5" fill="rgba(168,85,247,.6)" />
+                <rect x="212" y="37" width="32" height="6" rx="3" fill="rgba(255,255,255,.2)" />
+                <rect x="301" y="12" width="110" height="52" rx="7" fill="rgba(0,229,160,.08)"
+                  stroke="rgba(0,229,160,.15)" stroke-width=".5" />
+                <rect x="310" y="22" width="45" height="10" rx="5" fill="rgba(0,229,160,.6)" />
+                <rect x="310" y="37" width="30" height="6" rx="3" fill="rgba(255,255,255,.2)" />
+                <!-- Chart area -->
+                <rect x="105" y="76" width="200" height="110" rx="7" fill="rgba(255,255,255,.02)"
+                  stroke="rgba(255,255,255,.06)" stroke-width=".5" />
+                <!-- Bar chart inside -->
+                <rect x="120" y="150" width="16" height="20" rx="3" fill="rgba(255,77,0,.4)" />
+                <rect x="142" y="130" width="16" height="40" rx="3" fill="rgba(255,77,0,.6)" />
+                <rect x="164" y="115" width="16" height="55" rx="3" fill="rgba(255,77,0,.85)" />
+                <rect x="186" y="125" width="16" height="45" rx="3" fill="rgba(255,77,0,.6)" />
+                <rect x="208" y="105" width="16" height="65" rx="3" fill="rgba(168,85,247,.8)" />
+                <rect x="230" y="135" width="16" height="35" rx="3" fill="rgba(255,77,0,.5)" />
+                <rect x="252" y="118" width="16" height="52" rx="3" fill="rgba(255,77,0,.7)" />
+                <polyline points="128,145 150,125 172,108 194,120 216,98 238,130 260,112" fill="none"
+                  stroke="rgba(0,229,160,.7)" stroke-width="1.5" />
+                <!-- Right panel -->
+                <rect x="315" y="76" width="96" height="46" rx="7" fill="rgba(255,255,255,.02)"
+                  stroke="rgba(255,255,255,.06)" stroke-width=".5" />
+                <rect x="325" y="87" width="50" height="8" rx="4" fill="rgba(255,255,255,.3)" />
+                <rect x="325" y="100" width="36" height="6" rx="3" fill="rgba(255,255,255,.15)" />
+                <rect x="315" y="132" width="96" height="54" rx="7" fill="rgba(255,77,0,.06)"
+                  stroke="rgba(255,77,0,.15)" stroke-width=".5" />
+                <circle cx="335" cy="155" r="12" fill="rgba(255,77,0,.2)" />
+                <rect x="353" y="148" width="44" height="7" rx="3.5" fill="rgba(255,255,255,.35)" />
+                <rect x="353" y="160" width="32" height="5" rx="2.5" fill="rgba(255,255,255,.15)" />
+                <!-- Bottom row -->
+                <rect x="105" y="197" width="140" height="50" rx="7" fill="rgba(255,255,255,.02)"
+                  stroke="rgba(255,255,255,.06)" stroke-width=".5" />
+                <rect x="115" y="208" width="60" height="8" rx="4" fill="rgba(255,255,255,.3)" />
+                <rect x="115" y="222" width="100" height="5" rx="2.5" fill="rgba(255,255,255,.12)" />
+                <rect x="115" y="232" width="80" height="5" rx="2.5" fill="rgba(255,255,255,.08)" />
+                <rect x="255" y="197" width="156" height="50" rx="7" fill="rgba(168,85,247,.06)"
+                  stroke="rgba(168,85,247,.15)" stroke-width=".5" />
+                <rect x="265" y="208" width="70" height="8" rx="4" fill="rgba(168,85,247,.6)" />
+                <rect x="265" y="222" width="110" height="5" rx="2.5" fill="rgba(255,255,255,.15)" />
+                <rect x="265" y="232" width="85" height="5" rx="2.5" fill="rgba(255,255,255,.1)" />
+              </svg>
+            </div>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-band">
+    <div class="ticker-inner">
+      <div class="ticker-item">UI/UX Design</div>
+      <div class="ticker-item">Figma Expert</div>
+      <div class="ticker-item">Frontend Dev</div>
+      <div class="ticker-item">React.js</div>
+      <div class="ticker-item">Motion Design</div>
+      <div class="ticker-item">Tailwind CSS</div>
+      <div class="ticker-item">Design Systems</div>
+      <div class="ticker-item">Prototyping</div>
+      <div class="ticker-item">User Research</div>
+      <div class="ticker-item">JavaScript</div>
+      <div class="ticker-item">Webflow</div>
+      <div class="ticker-item">Adobe XD</div>
+      <div class="ticker-item">UI/UX Design</div>
+      <div class="ticker-item">Figma Expert</div>
+      <div class="ticker-item">Frontend Dev</div>
+      <div class="ticker-item">React.js</div>
+      <div class="ticker-item">Motion Design</div>
+      <div class="ticker-item">Tailwind CSS</div>
+      <div class="ticker-item">Design Systems</div>
+      <div class="ticker-item">Prototyping</div>
+      <div class="ticker-item">User Research</div>
+      <div class="ticker-item">JavaScript</div>
+      <div class="ticker-item">Webflow</div>
+      <div class="ticker-item">Adobe XD</div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about-section sr" id="about">
+    <div class="about-body">
+      <div class="about-label">About Me</div>
+      <h2 class="section-h">I design with <em>intent</em>,<br>build with craft.</h2>
+      <p>I'm <strong>Devang Bhattad</strong>, a UI/UX Designer and Frontend Developer based in <strong>Jawhar,
+          Maharashtra</strong>. I live at the intersection of beautiful design and clean code — creating products that
+        are not just functional, but genuinely delightful to use.</p>
+      <p>My workflow starts with deep <span class="fire">user empathy</span> — understanding real problems before
+        touching Figma or a keyboard. From wireframe to polished prototype to pixel-perfect implementation, I own the
+        full design-to-dev pipeline.</p>
+      <p>I believe every button, every animation, every micro-interaction is an opportunity to make someone's day a
+        little better. That obsession with detail is what separates <strong>good design from great design</strong>.</p>
+      <div style="display:flex;gap:.75rem;margin-top:2rem;flex-wrap:wrap">
+        <a href="https://www.linkedin.com/in/devang-bhattad-59a40b27b/" target="_blank" class="btn-fire magnetic"
+          style="font-size:.82rem;padding:.65rem 1.4rem">LinkedIn ↗</a>
+        <a href="#projects" class="btn-line magnetic" style="font-size:.82rem;padding:.65rem 1.4rem">View Projects</a>
+      </div>
+    </div>
+
+    <div class="profile-block sr sr-delay-2">
+      <div class="profile-card">
+        <div class="profile-header">
+          <div class="avatar-ring">
+            <div class="avatar-inner" style="position:relative;overflow:hidden;border-radius:50%;">
+              <img src="assets/devang.png" alt="Devang Bhattad"
+                style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+            </div>
+          </div>
+        </div>
+        <div class="profile-body">
+          <div class="profile-name">Devang Bhattad</div>
+          <div class="profile-title">// UI/UX Designer · Frontend Dev</div>
+          <div class="profile-tags">
+            <span class="ptag">📍 Jawhar, India</span>
+            <span class="ptag">🎨 Design</span>
+            <span class="ptag">⚛️ React</span>
+            <span class="ptag">✦ Figma</span>
+            <span class="ptag">🚀 Webflow</span>
+            <span class="ptag">💡 Creative Dev</span>
+          </div>
+          <div class="profile-stats">
+            <div class="pstat">
+              <div class="pstat-n">10+</div>
+              <div class="pstat-l">Projects</div>
+            </div>
+            <div class="pstat">
+              <div class="pstat-n">10+</div>
+              <div class="pstat-l">Tools</div>
+            </div>
+            <div class="pstat">
+              <div class="pstat-n">1+</div>
+              <div class="pstat-l">Yrs Exp</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-tag ft1">
+        <div class="ft-dot" style="background:var(--flash3)"></div>
+        <span style="color:var(--flash3)">Open to Work</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="skills">
+    <div class="skills-header">
+      <div>
+        <div class="about-label" style="color:var(--flash)"><span style="opacity:.4">02</span> Skills & Expertise</div>
+        <h2 class="section-h" style="margin-bottom:0">What I <em>do best</em></h2>
+        <p
+          style="margin-top: 1.25rem; color: var(--txt2); font-size: 1.1rem; max-width: 600px; font-style: italic; border-left: 3px solid var(--flash); padding-left: 1rem; line-height: 1.6;">
+          "I am more of a Designer, Product Thinker, and Entrepreneur than a traditional Software Developer."
+        </p>
+      </div>
+    </div>
+
+    <div class="skills-accordion">
+
+      <div class="sa-slice sr sr-delay-1" style="--g: var(--flash)">
+        <div class="sa-number">01</div>
+        <div class="sa-vertical-title">UI/UX Design</div>
+        <div class="sa-content">
+          <div class="sa-title">UI/UX Design</div>
+          <div class="sa-cat">Top Skill</div>
+          <p class="sa-desc">Creating website and app designs in Figma. Understanding layouts, user flows, and visual
+            design. Turning ideas into attractive interfaces with a strong interest in the creative side of technology.
+          </p>
+          <div class="sa-tags">
+            <span class="sa-tag">Figma</span>
+            <span class="sa-tag">Layouts</span>
+            <span class="sa-tag">User Flows</span>
+            <span class="sa-tag">Visual Design</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sa-slice sr sr-delay-2" style="--g: var(--flash2)">
+        <div class="sa-number">02</div>
+        <div class="sa-vertical-title">Digital Creativity & Branding</div>
+        <div class="sa-content">
+          <div class="sa-title">Digital Creativity & Branding</div>
+          <div class="sa-cat">Marketing</div>
+          <p class="sa-desc">Canva design, social media post creation, brand identity and marketing ideas. Creating
+            promotional content for businesses.</p>
+          <div class="sa-tags">
+            <span class="sa-tag">Canva</span>
+            <span class="sa-tag">Social Media</span>
+            <span class="sa-tag">Branding</span>
+            <span class="sa-tag">Marketing</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sa-slice sr sr-delay-3" style="--g: var(--flash3)">
+        <div class="sa-number">03</div>
+        <div class="sa-vertical-title">Business & Entrepreneurship</div>
+        <div class="sa-content">
+          <div class="sa-title">Business & Entrepreneurship</div>
+          <div class="sa-cat">Strategy</div>
+          <p class="sa-desc">Constantly exploring new business ideas, delivering high-quality freelance client work, and
+            leveraging my design and development skills to solve real-world problems.</p>
+          <div class="sa-tags">
+            <span class="sa-tag">Freelancing</span>
+            <span class="sa-tag">Client Work</span>
+            <span class="sa-tag">Digital Products</span>
+            <span class="sa-tag">Strategy</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sa-slice sr sr-delay-1" style="--g: var(--flash4)">
+        <div class="sa-number">04</div>
+        <div class="sa-vertical-title">Product Ideation</div>
+        <div class="sa-content">
+          <div class="sa-title">Product Ideation</div>
+          <div class="sa-cat">Innovation</div>
+          <p class="sa-desc">Digital fraud recovery portal idea, SIH project concepts. Finding real-world problems and
+            proposing creative solutions.</p>
+          <div class="sa-tags">
+            <span class="sa-tag">Ideation</span>
+            <span class="sa-tag">Problem Solving</span>
+            <span class="sa-tag">SIH Concepts</span>
+            <span class="sa-tag">Solutions</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sa-slice sr sr-delay-2" style="--g: var(--flash)">
+        <div class="sa-number">05</div>
+        <div class="sa-vertical-title">No-Code / Low-Code</div>
+        <div class="sa-content">
+          <div class="sa-title">No-Code / Low-Code</div>
+          <div class="sa-cat">Efficiency</div>
+          <p class="sa-desc">Website building, using AI tools efficiently, converting designs into working websites
+            without heavy coding.</p>
+          <div class="sa-tags">
+
+            <span class="sa-tag">AI Tools</span>
+            <span class="sa-tag">No-Code</span>
+            <span class="sa-tag">Rapid Dev</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sa-slice sr sr-delay-3" style="--g: var(--flash3)">
+        <div class="sa-number">06</div>
+        <div class="sa-vertical-title">Software Development</div>
+        <div class="sa-content">
+          <div class="sa-title">Software Development</div>
+          <div class="sa-cat">Engineering</div>
+          <p class="sa-desc">Front-end Development (HTML, CSS, JS), PHP & MySQL, Flutter Development, and a solid grasp
+            of Data Structures & Algorithms.</p>
+          <div class="sa-tags">
+            <span class="sa-tag">HTML/CSS/JS</span>
+            <span class="sa-tag">PHP/MySQL</span>
+            <span class="sa-tag">Flutter</span>
+            <span class="sa-tag">DSA</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section class="tools-section" id="tools">
+    <div class="tools-label">Tools & Applications</div>
+    <h2 class="section-h">My daily <em>toolkit</em></h2>
+
+    <div class="arsenal-layout">
+      <!-- Left: Chips -->
+      <div class="ars-col-left">
+        <div class="ars-cat sr">
+          <div class="ars-cat-title">Design Tools</div>
+          <div class="ars-chips">
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/figma.svg" alt="Figma"></span>
+              Figma</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/adobexd.svg" alt="Adobe XD"></span>
+              Adobe XD / Firefly</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/photoshop.svg"
+                  alt="Photoshop"></span> Photoshop</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/illustrator.svg"
+                  alt="Illustrator"></span> Illustrator</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/canva.svg" alt="Canva"></span>
+              Canva</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/sketch.svg" alt="Sketch"></span>
+              Sketch</div>
+            <div class="ars-chip"><span class="ars-chip-icon">✨</span> Visily AI</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/penpot.svg" class="invert-on-light"
+                  alt="Penpot"></span> Penpot</div>
+            <div class="ars-chip"><span class="ars-chip-icon">🌐</span> Wix</div>
+          </div>
+        </div>
+        <div class="ars-cat sr sr-delay-1">
+          <div class="ars-cat-title">Development</div>
+          <div class="ars-chips">
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/react.svg" alt="React"></span>
+              React.js</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/nextjs.svg" class="invert-on-light"
+                  alt="Next.js"></span> Next.js</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/tailwind.svg"
+                  alt="Tailwind"></span> Tailwind</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/html5.svg" alt="HTML5"></span>
+              HTML / CSS</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/typescript.svg"
+                  alt="TypeScript"></span> TypeScript</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-brand-flutter" style="font-size: 1.2rem; color: #54c5f8"></i></span> Flutter</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-brand-php" style="font-size: 1.2rem; color: #777bb3"></i></span> PHP</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-database" style="font-size: 1.2rem; color: #f29111"></i></span> MySQL (Basic)</div>
+          </div>
+        </div>
+        <div class="ars-cat sr sr-delay-2">
+          <div class="ars-cat-title">AI & Analytics</div>
+          <div class="ars-chips">
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/chatgpt.svg"
+                  class="invert-on-light" alt="ChatGPT"></span> ChatGPT</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/gemini.svg"
+                  alt="Google Gemini"></span> Google Gemini</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/claude.svg" alt="Claude"></span>
+              Claude</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/pomeli.svg" alt="Pomeli"></span>
+              Google Pomeli</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/stitch.svg" alt="Stitch"></span>
+              Google Stitch</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/midjourney.svg"
+                  class="invert-on-light" alt="Midjourney"></span> Midjourney</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/analytics.svg"
+                  alt="Google Analytics"></span> Google Analytics</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><img src="assets/tools/searchconsole.svg"
+                  alt="Search Console"></span> Search Console</div>
+          </div>
+        </div>
+        <div class="ars-cat sr sr-delay-3">
+          <div class="ars-cat-title">Research & Soft Skills</div>
+          <div class="ars-chips">
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-search" style="font-size: 1.1rem; color: var(--flash);"></i></span> User Research</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-check" style="font-size: 1.1rem; color: var(--flash2);"></i></span> Usability Testing</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-layout-board" style="font-size: 1.1rem; color: var(--flash3);"></i></span> Wireframing</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-layers" style="font-size: 1.1rem; color: var(--flash4);"></i></span> Prototyping</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-heart" style="font-size: 1.1rem; color: #ff5f57;"></i></span> Empathy</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-users" style="font-size: 1.1rem; color: #3b82f6;"></i></span> Leadership & Teamwork</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-message" style="font-size: 1.1rem; color: #10b981;"></i></span> Communication</div>
+            <div class="ars-chip"><span class="ars-chip-icon"><i class="ti ti-clock" style="font-size: 1.1rem; color: #f59e0b;"></i></span> Time Management</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Creative Bento -->
+      <div class="ars-col-right">
+        <!-- Static Title Placement -->
+        <div class="d12-title sr sr-delay-2">
+          <div class="d12-badge">✨ Creative Process</div>
+          <h3>Bridging the gap</h3>
+          <p>between imagination and execution.</p>
+        </div>
+
+        <div class="d12-orbit-showcase sr sr-delay-3">
+          <!-- Abstract CSS Art replacing the image -->
+          <div class="creative-core">
+            <div class="core-glow"></div>
+            <img src="assets/d12.png" alt="Creative Identity" class="core-img">
+            <div class="core-ring cr-1"></div>
+            <div class="core-ring cr-2"></div>
+            <div class="core-ring cr-3"></div>
+          </div>
+
+          <!-- Decorative Orbit Rings -->
+          <div class="d12-ring ring-1"></div>
+          <div class="d12-ring ring-2"></div>
+
+          <!-- Orbiting Floating Elements (More labels added) -->
+          <div class="orbit-item oi-1"><i class="ti ti-palette"></i> UI/UX Design</div>
+          <div class="orbit-item oi-2"><i class="ti ti-code"></i> Frontend</div>
+          <div class="orbit-item oi-3"><i class="ti ti-brain"></i> AI Synergy</div>
+          <div class="orbit-item oi-4"><i class="ti ti-bulb"></i> Ideation</div>
+          <div class="orbit-item oi-5"><i class="ti ti-briefcase"></i> Strategy</div>
+          <div class="orbit-item oi-6"><i class="ti ti-wand"></i> Branding</div>
+
+          <!-- Floating decorative particles -->
+          <div class="d12-particle p-1"></div>
+          <div class="d12-particle p-2"></div>
+          <div class="d12-particle p-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section" id="projects">
+    <div class="proj-header">
+      <div>
+        <div class="proj-label"><span style="opacity:.4">04</span> Featured Work</div>
+        <h2 class="section-h" style="margin-bottom:0">Selected <em>Projects</em></h2>
+      </div>
+    </div>
+
+    <div class="proj-container">
+      <div class="quick-nav-sidebar sr">
+        <div class="qn-card">
+          <div class="qn-title">Jump to Project</div>
+          <div class="qn-links">
+            <a href="#proj-1" class="qn-link magnetic"><span class="qn-num">01</span> Rama Inn</a>
+            <a href="#proj-2" class="qn-link magnetic"><span class="qn-num">02</span> SIMS Portal</a>
+            <a href="#proj-3" class="qn-link magnetic"><span class="qn-num">03</span> TalentMatch AI</a>
+            <a href="#proj-4" class="qn-link magnetic"><span class="qn-num">04</span> ShadowOps</a>
+            <a href="#proj-5" class="qn-link magnetic"><span class="qn-num">05</span> Watercolor</a>
+            <a href="#proj-6" class="qn-link magnetic"><span class="qn-num">06</span> Incubating</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proj-grid">
+        <!-- Rama Inn Project -->
+        <div class="proj-card sr" id="proj-1">
+          <div class="proj-close magnetic">✕</div>
+          <a href="https://www.ramainnjawhar.com/" target="_blank" class="proj-link magnetic"
+            onclick="event.stopPropagation()">↗</a>
+          <div class="proj-thumb slideshow-container">
+            <img src="assets/rama-1.png" alt="Rama Inn Hotel" class="slide-img active">
+            <img src="assets/rama-2.jpg" alt="Rama Inn Hotel" class="slide-img">
+            <img src="assets/rama-3.png" alt="Rama Inn Hotel" class="slide-img">
+            <img src="assets/rama-4.png" alt="Rama Inn Hotel" class="slide-img">
+          </div>
+          <div class="proj-info">
+            <div class="proj-tag">Full-Stack Development</div>
+            <div class="proj-title">Rama Inn Hotel Website & Admin Dashboard</div>
+            <div class="proj-desc">Designed, developed, and deployed a comprehensive end-to-end hotel booking platform
+              for Rama Inn, Jawhar. Engineered a beautifully responsive customer-facing website to explore rooms and
+              local attractions, coupled with a secure administrative dashboard for seamless reservation and operations
+              management. Owned the complete lifecycle from UI/UX design to production deployment.</div>
+            <div class="proj-stack">
+              <span class="ps-tag"><i class="ti ti-brand-html5"></i> HTML</span>
+              <span class="ps-tag"><i class="ti ti-brand-css3"></i> CSS</span>
+              <span class="ps-tag"><i class="ti ti-brand-tailwind"></i> Tailwind CSS</span>
+              <span class="ps-tag"><i class="ti ti-brand-javascript"></i> JavaScript</span>
+              <span class="ps-tag">Admin Portal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Large Featured Project -->
+        <!-- Large Featured Project -->
+        <div class="proj-card sr" id="proj-2">
+          <div class="proj-close magnetic">✕</div>
+          <a href="https://sims.csidmce.com/" target="_blank" class="proj-link magnetic"
+            onclick="event.stopPropagation()">↗</a>
+          <div class="proj-thumb slideshow-container">
+            <img src="assets/sims-1.png" alt="DMCE Portal" class="slide-img active">
+            <img src="assets/sims-2.png" alt="DMCE Portal" class="slide-img">
+          </div>
+          <div class="proj-info">
+            <div class="proj-tag">UX Design & Research</div>
+            <div class="proj-title">STUDENTS INFORMATION MANAGEMENT SYSTEM (SIMS) Portal</div>
+            <div class="proj-desc">Designed and improved the user experience of the Students Information Management
+              System (SIMS), an educational platform that streamlines academic and administrative processes. Focused on
+              user research, workflow optimization, wireframing, prototyping, and creating intuitive interfaces that
+              simplify complex tasks for students and faculty while maintaining consistency and scalability across the
+              platform.</div>
+            <div class="proj-stack">
+              <span class="ps-tag"><i class="ti ti-brand-figma"></i> Figma</span>
+              <span class="ps-tag">User Research</span>
+              <span class="ps-tag">Wireframing</span>
+              <span class="ps-tag">Prototyping</span>
+              <span class="ps-tag">UI/UX Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TalentMatch AI Project -->
+        <!-- TalentMatch AI Project -->
+        <div class="proj-card sr" id="proj-3">
+          <div class="proj-close magnetic">✕</div>
+          <a href="https://lnkd.in/ddy64T8n" target="_blank" class="proj-link magnetic"
+            onclick="event.stopPropagation()">↗</a>
+          <div class="proj-thumb slideshow-container">
+            <img src="assets/talentmatch-1.png" alt="TalentMatch AI" class="slide-img active">
+            <img src="assets/talentmatch-2.png" alt="TalentMatch AI" class="slide-img">
+            <img src="assets/talentmatch-3.png" alt="TalentMatch AI" class="slide-img">
+          </div>
+          <div class="proj-info">
+            <div class="proj-tag">AI Product Design</div>
+            <div class="proj-title">TalentMatch AI</div>
+            <div class="proj-desc">TalentMatch AI is an AI-powered recruitment platform that automates resume screening,
+              matches candidates against job descriptions, identifies skill gaps, and helps recruiters make faster,
+              data-driven hiring decisions through intelligent candidate analysis.</div>
+            <div class="proj-stack">
+              <span class="ps-tag"><i class="ti ti-brand-figma"></i> Figma</span>
+              <span class="ps-tag">UI/UX Design</span>
+              <span class="ps-tag">Dashboard Design</span>
+              <span class="ps-tag">Data Visualization</span>
+              <span class="ps-tag">Product Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ShadowOps Project -->
+        <div class="proj-card sr" id="proj-4">
+          <div class="proj-close magnetic">✕</div>
+          <div class="proj-thumb slideshow-container">
+            <img src="assets/shadowops-1.png" alt="ShadowOps Dashboard" class="slide-img active">
+            <img src="assets/shadowops-2.png" alt="ShadowOps Dashboard" class="slide-img">
+          </div>
+          <div class="proj-info">
+            <div class="proj-tag">SaaS Intelligence Platform</div>
+            <div class="proj-title">ShadowOps</div>
+            <div class="proj-desc">ShadowOps is a SaaS spend intelligence platform that helps organizations track
+              software usage, identify underutilized subscriptions, optimize licensing costs, and reduce wasted SaaS
+              spend through real-time analytics, AI-powered recommendations, and ROI insights.</div>
+            <div class="proj-stack">
+              <span class="ps-tag"><i class="ti ti-brand-react"></i> React</span>
+              <span class="ps-tag"><i class="ti ti-brand-tailwind"></i> Tailwind CSS</span>
+              <span class="ps-tag">Recharts</span>
+              <span class="ps-tag">React Query</span>
+              <span class="ps-tag"><i class="ti ti-brand-framer-motion"></i> Framer Motion</span>
+              <span class="ps-tag">Base44 BaaS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- WIP Project 1 -->
+        <div class="proj-card proj-wip sr" id="proj-5">
+          <div class="wip-content">
+            <div class="wip-loader">
+              <div class="wip-ring"></div>
+            </div>
+            <div class="proj-tag" style="color: var(--flash3);">In Development</div>
+            <div class="proj-title" style="margin-bottom: 0;">Watercolor Artist Website</div>
+            <div class="proj-desc" style="-webkit-line-clamp: unset; text-align: center;">An immersive platform for a
+              watercolor artist featuring an integrated biography, interactive portfolio gallery, and complete
+              e-commerce experience for painting sales.</div>
+          </div>
+        </div>
+
+        <!-- WIP Project 2 -->
+        <div class="proj-card proj-wip sr" id="proj-6">
+          <div class="wip-content">
+            <div class="wip-loader">
+              <div class="wip-radar"></div>
+            </div>
+            <div class="proj-tag" style="color: var(--flash4);">Incubating</div>
+            <div class="proj-title" style="margin-bottom: 0;">Work in Progress</div>
+            <div class="proj-desc" style="-webkit-line-clamp: unset; text-align: center;">Something amazing is brewing.
+              Check back soon for updates.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRAPHIC DESIGN -->
+  <section class="graphics-section" id="graphics">
+    <div class="graphics-header">
+      <div>
+        <div class="proj-label"><span style="opacity:.4">05</span> Visual Explorations</div>
+        <h2 class="section-h">Graphic <em>Design</em></h2>
+      </div>
+      <p class="graphics-desc">A collection of my graphic design, branding elements, and digital art created with Canva
+        and Adobe Creative Suite.</p>
+    </div>
+
+    <div class="graphics-accordion sr">
+      <div class="acc-item">
+        <a href="https://canva.link/0uy1jp5ztoxxpow" target="_blank" title="View Logo Design in Canva">
+          <img src="assets/marwadi-logo.png" alt="Marwadi Sangathan Logo Design">
+          <div class="acc-overlay">
+            <div class="acc-icon"><i class="ti ti-arrow-up-right"></i></div>
+            <div class="acc-title">Marwadi Sangathan</div>
+            <div class="acc-tag">Logo Design</div>
+          </div>
+        </a>
+      </div>
+      <div class="acc-item">
+        <a href="https://canva.link/43w26t57itir1dn" target="_blank" title="View Rama Inn Poster in Canva">
+          <img src="assets/rama-inn-poster.jpg" alt="Rama Inn Marketing Poster">
+          <div class="acc-overlay">
+            <div class="acc-icon"><i class="ti ti-arrow-up-right"></i></div>
+            <div class="acc-title">Rama Inn Resort</div>
+            <div class="acc-tag">Marketing Poster</div>
+          </div>
+        </a>
+      </div>
+      <div class="acc-item">
+        <a href="https://canva.link/mdr53f2o2459ztj" target="_blank" title="View Tech-Fest Poster in Canva">
+          <img src="assets/techfest-poster.png" alt="Tech-Fest 2024 Poster">
+          <div class="acc-overlay">
+            <div class="acc-icon"><i class="ti ti-arrow-up-right"></i></div>
+            <div class="acc-title">Tech-Fest 2024</div>
+            <div class="acc-tag">Event Branding</div>
+          </div>
+        </a>
+      </div>
+      <div class="acc-item">
+        <a href="https://canva.link/by3419f2lsj0ttq" target="_blank" title="View DMCE GTC 2026 Poster in Canva">
+          <img src="assets/gtc-poster.png" alt="DMCE GTC 2026 Poster">
+          <div class="acc-overlay">
+            <div class="acc-icon"><i class="ti ti-arrow-up-right"></i></div>
+            <div class="acc-title">DMCE GTC 2026</div>
+            <div class="acc-tag">Conference Poster</div>
+          </div>
+        </a>
+      </div>
+      <div class="acc-item">
+        <a href="https://canva.link/o8vcxds43sok4fa" target="_blank" title="View Hotel Rama-Inn Logo in Canva">
+          <img src="assets/rama-inn-logo-2.png" alt="Hotel Rama-Inn Logo Design">
+          <div class="acc-overlay">
+            <div class="acc-icon"><i class="ti ti-arrow-up-right"></i></div>
+            <div class="acc-title">Rama Inn Gold</div>
+            <div class="acc-tag">Brand Identity</div>
+          </div>
+        </a>
+      </div>
+      <div class="acc-item">
+        <a href="https://canva.link/nzhkj04wvwlhvkk" target="_blank" title="View TVISOJA Jewelz Design in Canva">
+          <img src="assets/tvisoja-jewelz.jpg" alt="TVISOJA Jewelz Campaign">
+          <div class="acc-overlay">
+            <div class="acc-icon"><i class="ti ti-arrow-up-right"></i></div>
+            <div class="acc-title">TVISOJA Jewelz</div>
+            <div class="acc-tag">Social Campaign</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- UI DESIGN -->
+  <section class="ui-design-section" id="ui-design">
+    <div class="graphics-header" style="padding: 0 5%;">
+      <div>
+        <div class="proj-label"><span style="opacity:.4">06</span> Interactive Prototypes</div>
+        <h2 class="section-h">UI/UX <em>Design</em></h2>
+      </div>
+      <p class="graphics-desc">A collection of user interfaces, web apps, and mobile screens prototyped in Figma.</p>
+    </div>
+
+    <div class="ui-3d-container sr">
+      <div class="ui-3d-grid">
+
+        <div class="ui-3d-card">
+          <a href="https://www.figma.com/proto/7o3DODOl6R97PXfwalr9iu?node-id=0-1&t=pLDM6v3Iqz46J925-6" target="_blank"
+            class="ui-link"></a>
+          <img src="assets/codeathon-ui.png" alt="Code-A-Thon UI Design">
+          <div class="ui-content">
+            <div class="ui-title">Code-A-Thon 2.0</div>
+            <div class="ui-tag">UI Design / Figma</div>
+          </div>
+        </div>
+
+        <div class="ui-3d-card">
+          <a href="https://www.figma.com/design/otozYJNz7UAkEHP6i4ci6T/STUDENT-PORTAL?node-id=4209-479&t=pLDM6v3Iqz46J925-1"
+            target="_blank" class="ui-link"></a>
+          <img src="assets/student-portal-ui.png" alt="Student Portal UI Design">
+          <div class="ui-content">
+            <div class="ui-title">Student Portal</div>
+            <div class="ui-tag">UI Design / Figma</div>
+          </div>
+        </div>
+
+        <div class="ui-3d-card">
+          <a href="https://www.figma.com/design/hded4eCLUZeOM2TBAsOp64/CustomIT?t=pLDM6v3Iqz46J925-1" target="_blank"
+            class="ui-link"></a>
+          <img src="assets/customit-ui.png" alt="CustomIT UI Design">
+          <div class="ui-content">
+            <div class="ui-title">CustomIT</div>
+            <div class="ui-tag">UI Design / Figma</div>
+          </div>
+        </div>
+
+        <div class="ui-3d-card">
+          <a href="https://stitch.withgoogle.com/projects/14245729660410542959" target="_blank" class="ui-link"></a>
+          <img src="assets/jawhar-resort-ui.png" alt="Jawhar Resort UI Design">
+          <div class="ui-content">
+            <div class="ui-title">Jawhar Resort</div>
+            <div class="ui-tag">Web UI Design</div>
+          </div>
+        </div>
+
+        <div class="ui-3d-card">
+          <a href="https://app.visily.ai/projects/252f85b2-a016-4de3-a44b-64a100eead28/boards/2622981" target="_blank"
+            class="ui-link"></a>
+          <img src="assets/visily-ui.png" alt="Visily UI Wireframes">
+          <div class="ui-content">
+            <div class="ui-title">Chronicle of Vision</div>
+            <div class="ui-tag">UI Wireframing</div>
+          </div>
+        </div>
+
+        <div class="ui-3d-card">
+          <a href="https://stitch.withgoogle.com/projects/14142955480434883779" target="_blank" class="ui-link"></a>
+          <img src="assets/netflix-redesign.png" alt="Netflix Redesign">
+          <div class="ui-content">
+            <div class="ui-title">Netflix Redesign</div>
+            <div class="ui-tag">UI Concept / App</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process-section" id="process">
+    <div class="process-label"><span style="opacity:.4">07</span> The Workflow</div>
+    <h2 class="section-h">How I bring ideas to <em>life</em></h2>
+
+    <div class="process-steps">
+      <div class="step sr">
+        <div class="step-num">01</div>
+        <span class="step-icon">🔍</span>
+        <div class="step-name">Discovery</div>
+        <div class="step-desc">Understanding the user needs, business goals, and technical constraints.</div>
+      </div>
+      <div class="step sr sr-delay-1">
+        <div class="step-num">02</div>
+        <span class="step-icon">🗺️</span>
+        <div class="step-name">Wireframing</div>
+        <div class="step-desc">Mapping out the user journey and creating low-fidelity structural layouts.</div>
+      </div>
+      <div class="step sr sr-delay-2">
+        <div class="step-num">03</div>
+        <span class="step-icon">🎨</span>
+        <div class="step-name">Visual Design</div>
+        <div class="step-desc">Applying typography, colors, and building a cohesive high-fidelity prototype.</div>
+      </div>
+      <div class="step sr sr-delay-3">
+        <div class="step-num">04</div>
+        <span class="step-icon">⚙️</span>
+        <div class="step-name">Development</div>
+        <div class="step-desc">Translating the design into pixel-perfect, responsive, and accessible code.</div>
+      </div>
+      <div class="step sr sr-delay-4">
+        <div class="step-num">05</div>
+        <span class="step-icon">🚀</span>
+        <div class="step-name">Launch</div>
+        <div class="step-desc">Testing, deploying, and ensuring a flawless experience on all devices.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements-section" id="achievements">
+    <div class="ach-bento">
+      <!-- Center Title Card -->
+      <div class="bento-title-card sr">
+        <div class="ach-label" style="margin-bottom: 1rem;"><span style="opacity:.4">06</span> Milestones</div>
+        <h2>My<br><em>Achievements</em></h2>
+      </div>
+
+      <!-- span-2r (Taller masonry cards) -->
+      <div class="bento-card span-2r sr">
+        <div class="bento-year">Competition • 2026</div>
+        <div class="bento-info">
+          <div class="bento-title">1st Prize in Prompt Engineering</div>
+          <div class="bento-desc">Secured 1st Prize in Prompt Engineering at SIEM, Nashik.</div>
+        </div>
+      </div>
+
+      <div class="bento-card span-2r sr sr-delay-1">
+        <div class="bento-year">Code-A-Thon • 2025</div>
+        <div class="bento-info">
+          <div class="bento-title">Top 10 Finalist</div>
+          <div class="bento-desc">Selected in the Top 10 at the National Level Hackathon in DMCE.</div>
+        </div>
+      </div>
+
+      <div class="bento-card span-2r sr">
+        <div class="bento-year">Appreciation & Certification</div>
+        <div class="bento-info">
+          <div class="bento-title">SIMS Portal Development</div>
+          <div class="bento-desc">Awarded a Certificate of Completion and a Letter of Appreciation for designing and
+            building the Students Information Management System (SIMS) Portal.</div>
+        </div>
+      </div>
+
+      <div class="bento-card span-2r sr sr-delay-2">
+        <div class="bento-year">Workshop • 2025</div>
+        <div class="bento-info">
+          <div class="bento-title">Figma Workshop Host</div>
+          <div class="bento-desc">Conducted an amazing Figma Workshop organized by the CSI - CATT DMCE Committee!</div>
+        </div>
+      </div>
+
+      <div class="bento-card span-2r sr sr-delay-1">
+        <div class="bento-year">Leadership</div>
+        <div class="bento-info">
+          <div class="bento-title">Head Boy</div>
+          <div class="bento-desc">Served as the Head Boy at Samata International School.</div>
+        </div>
+      </div>
+
+      <div class="bento-card span-2r sr">
+        <div class="bento-year">Sports</div>
+        <div class="bento-info">
+          <div class="bento-title">National Athlete</div>
+          <div class="bento-desc">Recognized as a National-Level Athlete in Karate and Aerobics.</div>
+        </div>
+      </div>
+
+      <div class="bento-card span-2r sr sr-delay-2">
+        <div class="bento-year">Volunteer</div>
+        <div class="bento-info">
+          <div class="bento-title">Social Causes</div>
+          <div class="bento-desc">Actively volunteered for ISHA Foundation and ESDS Plantation.</div>
+        </div>
+      </div>
+
+      <!-- STANDARD ACHIEVEMENTS (1x1) -->
+      <div class="bento-card sr">
+        <div class="bento-year">Competition • 2023</div>
+        <div class="bento-info">
+          <div class="bento-title">Technical Paper Winner</div>
+          <div class="bento-desc">Winner of the Technical Paper Presentation at Sandip Polytechnic.</div>
+        </div>
+      </div>
+
+      <div class="bento-card sr sr-delay-1">
+        <div class="bento-year">Hackathon • 2026</div>
+        <div class="bento-info">
+          <div class="bento-title">2nd Prize</div>
+          <div class="bento-desc">Secured 2nd Prize in the Hackathon at SIEM, Nashik.</div>
+        </div>
+      </div>
+
+      <div class="bento-card sr">
+        <div class="bento-year">Hackathon • 2023</div>
+        <div class="bento-info">
+          <div class="bento-title">SITH-2023</div>
+          <div class="bento-desc">Participated in the Sandip TBI Innovation Hackathon.</div>
+        </div>
+      </div>
+
+      <div class="bento-card sr sr-delay-2">
+        <div class="bento-year">Leadership</div>
+        <div class="bento-info">
+          <div class="bento-title">Event Head</div>
+          <div class="bento-desc">Led and organized the College Tech Fest.</div>
+        </div>
+      </div>
+
+      <div class="bento-card sr sr-delay-1">
+        <div class="bento-year">Exhibition • 2024</div>
+        <div class="bento-info">
+          <div class="bento-title">PROJIT Participant</div>
+          <div class="bento-desc">Participated in PROJIT, a National Project Competition.</div>
+        </div>
+      </div>
+
+      <div class="bento-card sr">
+        <div class="bento-year">Volunteer • 2026</div>
+        <div class="bento-info">
+          <div class="bento-title">Student Felicitation Program</div>
+          <div class="bento-desc">Volunteered and had the privilege to interact with Atsushi Yoshida (Director) and
+            Yoshiyuki Kato (Managing Director) of Panasonic on innovation, collaboration, and smart solutions.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certifications-section" id="certifications">
+    <div class="ach-label"><span style="opacity:.4">07</span> Education</div>
+    <h2 class="section-h">My <em>Certifications</em></h2>
+
+    <div class="ach-scroll">
+      <!-- Certificate 1 -->
+      <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_69f3a4a8543dccd917194234_1778046363290_completion_certificate.pdf"
+        target="_blank" class="ach-card magnetic" style="text-decoration:none; color:inherit; display:flex;">
+        <div class="ach-icon"
+          style="background:#fff; display:flex; align-items:center; justify-content:center; padding: 10px;">
+          <img src="assets/logos/tata.svg" alt="Tata"
+            style="width:100%; height:auto; object-fit:contain; border-radius:4px;">
+        </div>
+        <div class="ach-info">
+          <div class="ach-year" style="display:flex; align-items:center; gap:6px;">
+            May 2026 •
+            <img src="assets/logos/forage.png" alt="Forage" style="height:14px; border-radius:2px;">
+            Forage
+          </div>
+          <div class="ach-title">Tata - Data Visualisation: Empowering Business with Effective Insights</div>
+          <div class="ach-desc">Completed a simulation involving creating data visualizations for Tata.
+            <br><br><strong>Skills:</strong> Dashboard Building, Data Analysis
+          </div>
+          <div style="margin-top: 10px; font-size: 0.85rem; color: var(--flash3);">Credential ID: AegZ9cCMFrhE5MjX9 ↗
+          </div>
+        </div>
+      </a>
+
+      <!-- Certificate 2 -->
+      <a href="https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_69f3a4a8543dccd917194234_1777581454654_completion_certificate.pdf"
+        target="_blank" class="ach-card magnetic" style="text-decoration:none; color:inherit; display:flex;">
+        <div class="ach-icon"
+          style="background:#fff; display:flex; align-items:center; justify-content:center; padding: 10px;">
+          <img src="assets/logos/tata.svg" alt="Tata"
+            style="width:100%; height:auto; object-fit:contain; border-radius:4px;">
+        </div>
+        <div class="ach-info">
+          <div class="ach-year" style="display:flex; align-items:center; gap:6px;">
+            May 2026 •
+            <img src="assets/logos/forage.png" alt="Forage" style="height:14px; border-radius:2px;">
+            Forage
+          </div>
+          <div class="ach-title">Tata - GenAI Powered Data Analytics</div>
+          <div class="ach-desc">Gained hands-on experience in data analysis, AI-based delinquency prediction, and
+            AI-driven insights. <br><br><strong>Skills:</strong> Microsoft Excel, Business Insight Generation</div>
+          <div style="margin-top: 10px; font-size: 0.85rem; color: var(--flash);">Credential ID: zXs2MDfibLKj5vQFC ↗
+          </div>
+        </div>
+      </a>
+
+      <!-- Certificate 3 -->
+      <a href="https://www.theforage.com/completion-certificates/YtWaumzWHmKiqP63y/zSefEeEKvojiQqiaH_YtWaumzWHmKiqP63y_69f3a4a8543dccd917194234_1777579070091_completion_certificate.pdf"
+        target="_blank" class="ach-card magnetic" style="text-decoration:none; color:inherit; display:flex;">
+        <div class="ach-icon"
+          style="background:#fff; display:flex; align-items:center; justify-content:center; padding: 10px;">
+          <img src="assets/logos/siemens.svg" alt="Siemens"
+            style="width:100%; height:auto; object-fit:contain; border-radius:4px;">
+        </div>
+        <div class="ach-info">
+          <div class="ach-year" style="display:flex; align-items:center; gap:6px;">
+            May 2026 •
+            <img src="assets/logos/forage.png" alt="Forage" style="height:14px; border-radius:2px;">
+            Forage
+          </div>
+          <div class="ach-title">Siemens Mobility - Project Manager</div>
+          <div class="ach-desc">Developed Key Performance Indicators (KPIs) and managed project dashboards.
+            <br><br><strong>Skills:</strong> KPI Dashboards, Key Performance Indicators
+          </div>
+          <div style="margin-top: 10px; font-size: 0.85rem; color: var(--flash4);">Credential ID: GybnE2WxkxsJhRgwt ↗
+          </div>
+        </div>
+      </a>
+
+      <!-- Certificate 4 -->
+      <a href="https://www.theforage.com/completion-certificates/prBZoAihniNijyD6d/oX6f9BbCL9kJDJzfg_prBZoAihniNijyD6d_69f3a4a8543dccd917194234_1777576653099_completion_certificate.pdf"
+        target="_blank" class="ach-card magnetic" style="text-decoration:none; color:inherit; display:flex;">
+        <div class="ach-icon"
+          style="background:#fff; display:flex; align-items:center; justify-content:center; padding: 10px;">
+          <img src="assets/logos/walmart.png" alt="Walmart"
+            style="width:100%; height:auto; object-fit:contain; border-radius:4px;">
+        </div>
+        <div class="ach-info">
+          <div class="ach-year" style="display:flex; align-items:center; gap:6px;">
+            May 2026 •
+            <img src="assets/logos/forage.png" alt="Forage" style="height:14px; border-radius:2px;">
+            Forage
+          </div>
+          <div class="ach-title">Walmart USA - Advanced Software Engineering</div>
+          <div class="ach-desc">Advanced Data Structures - Implemented a Power of Two Max Heap from scratch.
+            <br><br><strong>Skills:</strong> UML, Relational Data Modeling
+          </div>
+          <div style="margin-top: 10px; font-size: 0.85rem; color: var(--flash2);">Credential ID: H49Cwz3fuDhamrbAn ↗
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- COLLAB -->
+  <section class="collab-section sr">
+    <div class="collab-inner">
+      <div class="collab-label">Why work with me</div>
+      <div class="collab-quote">"I don't just design screens — I design experiences that convert, retain, and delight."
+      </div>
+
+      <div class="collab-cards">
+        <div class="c-card">
+          <div class="c-icon">⚡</div>
+          <div class="c-title">Fast Delivery</div>
+          <div class="c-desc">High-quality work shipped on time. I respect deadlines as much as I respect good design.
+          </div>
+        </div>
+        <div class="c-card">
+          <div class="c-icon">🎯</div>
+          <div class="c-title">Design + Code</div>
+          <div class="c-desc">I bridge design and development — no lost-in-translation moments between handoff and
+            implementation.</div>
+        </div>
+        <div class="c-card">
+          <div class="c-icon">♾️</div>
+          <div class="c-title">Unlimited Revisions</div>
+          <div class="c-desc">I iterate until it's right. Your satisfaction drives every design decision I make.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section sr" id="contact">
+    <div class="contact-inner">
+      <div class="contact-label">Get in Touch</div>
+      <h2 class="contact-h">Let's build something <em>incredible.</em></h2>
+      <p class="contact-sub">Currently open for new opportunities and exciting freelance projects. Whether you have a
+        question or just want to say hi, my inbox is always open!</p>
+
+      <a href="mailto:devangbhattad@gmail.com" class="contact-email-link magnetic">
+        devang0027bhattad@gmail.com ↗
+      </a>
+
+      <div class="social-row">
+        <a href="https://github.com/Devang24Hub" target="_blank" class="soc-btn magnetic">
+          <div class="soc-icon" style="background:rgba(255,255,255,.1)">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="white">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.45-1.15-1.11-1.46-1.11-1.46-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 22 2z" />
+            </svg>
+          </div>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/devang-bhattad-59a40b27b/" target="_blank" class="soc-btn magnetic">
+          <div class="soc-icon" style="background:rgba(10,102,194,.2);color:#0a66c2">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+              <path
+                d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.16-3.8c-1.1 0-1.8.6-2.12 1.2v-1h-3v8.9h3v-4.8a1.38 1.38 0 0 1 1.36-1.5c1 0 1.11.85 1.11 1.55v4.85h3.01zM7.3 8.2a1.8 1.8 0 1 0-1.8-1.8c0 1 .8 1.8 1.8 1.8zM5.8 9.5h3v8.9h-3v-8.9z" />
+            </svg>
+          </div>
+          LinkedIn
+        </a>
+        <a href="https://instagram.com/devangbhattad" target="_blank" class="soc-btn magnetic">
+          <div class="soc-icon" style="background:rgba(225,48,108,.2);color:#e1306c">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </div>
+          Instagram
+        </a>
+        <a href="https://wa.me/919860022416" target="_blank" class="soc-btn magnetic">
+          <div class="soc-icon" style="background:rgba(37,211,102,.2);color:#25D366">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+              </path>
+            </svg>
+          </div>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="f-copy">© 2024 Devang Bhattad. All rights reserved.</div>
+    <div class="f-love">Built with <span>♥</span> & lots of caffeine.</div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
