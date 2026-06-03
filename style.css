@@ -1087,7 +1087,11 @@
         writing-mode: horizontal-tb;
         transform: none;
         margin: 0;
-        padding: 0 1.5rem;
+        padding: 0 1.5rem 0 0;
+        white-space: normal;
+        font-size: 1.2rem;
+        line-height: 1.3;
+        flex: 1;
       }
 
       .sa-slice:hover .sa-vertical-title {
@@ -3175,7 +3179,7 @@
         max-width: 100vw !important;
       }
 
-      .hero, .hero-left, .hero-right,
+      .hero,
       .about-section,
       .skills-section,
       .tools-section,
@@ -3184,14 +3188,24 @@
       .collab-section,
       .achievements-section,
       .certifications-section,
-      .contact-section,
-      footer {
-        padding-left: 1.2rem !important;
-        padding-right: 1.2rem !important;
+      .contact-section {
+        padding: 4rem 1.2rem !important;
         width: 100% !important;
         max-width: 100vw !important;
         box-sizing: border-box !important;
         overflow-x: hidden;
+      }
+
+      .hero-left, .hero-right {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      footer {
+        padding: 1.5rem 1.2rem !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        box-sizing: border-box !important;
       }
 
       /* Force all large fixed-width containers to be 100% on mobile */
@@ -3239,5 +3253,30 @@
       
       .contact-section::before, .process-steps::before {
         display: none !important;
+      }
+
+      .contact-email-link {
+        font-size: clamp(1rem, 4.5vw, 1.25rem) !important;
+        padding: 0.8rem 1.5rem !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        word-break: break-all !important;
+        white-space: normal !important;
+        display: inline-flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 0.5rem !important;
+      }
+
+      .social-row {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 0.75rem !important;
+        width: 100% !important;
+      }
+
+      .soc-btn {
+        padding: 0.5rem 1rem !important;
+        font-size: 0.75rem !important;
       }
     }
